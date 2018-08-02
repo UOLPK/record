@@ -132,7 +132,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 var appRoutes = [
-    { path: '', redirectTo: '/login', pathMatch: 'full' },
+    { path: '', redirectTo: 'login', pathMatch: 'full' },
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_5__login_login_component__["a" /* LoginComponent */] },
     { path: 'record', component: __WEBPACK_IMPORTED_MODULE_6__record_record_component__["a" /* RecordComponent */] },
     { path: 'trans', component: __WEBPACK_IMPORTED_MODULE_7__trans_trans_component__["a" /* TransComponent */] },
